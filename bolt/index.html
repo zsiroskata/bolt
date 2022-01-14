@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bevásárlás</title>
+</head>
+<body>
+    <h1>Bevásárlás</h1>
+    <p>
+        Név: <br>
+        <input type="text" id="nev">
+    </p>
+    <p>
+        <select id="termek">
+            <option value="40">Kifli 40Ft/db</option>
+            <option value="40">Zsemle 40Ft/db </option>
+            <option value="270">1L tej 270Ft/db</option>
+            <option value="350">1 Kg kenyér 350Ft</option>
+            <option value="160">Vaj 160Ft</option>
+        </select>
+    </p>
+    <p>
+        Darabszám:  <br>
+        <input type="text" id="szam">
+    </p>
+
+    <button type="button" onclick="szamol()">Számolás</button>
+
+    <p>
+        <span id="kiiras" ></span> <br>
+        <span id="nevkiirat"></span>
+    </p>
+
+
+
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
